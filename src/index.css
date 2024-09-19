@@ -1,0 +1,72 @@
+/* Body styles */
+body {
+    background-color: rgb(160, 119, 171);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    background-color: #be90c1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 20px;
+}
+
+/* Header styles */
+.header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f3f1f3;
+}
+
+/* Quote box styles */
+.quote-box {
+    background-color: #7b4b7e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Quote text styles */
+.quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Author text styles */
+.author {
+    font-size: 1.2rem;
+    color: #ebebeb;
+}
+
+/* Button styles */
+.button {
+    padding: 12px 24px;
+    background-color: #8e5597;
+    color: #f0f0f5;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #592a5f;
+    transform: scale(1.05);
+}
