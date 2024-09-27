@@ -16,8 +16,7 @@ You can check the app [here](#) (add deployment link if available).
 
 ## Screenshots
 
-![App Screenshot]([screenshot.png](https://github.com/user-attachments/assets/07c83269-8475-478e-8c6e-13524246ac29))  
-*An example of the random quote generator interface.*
+![Screenshot 2024-09-27 205414](https://github.com/user-attachments/assets/330f5a41-043d-4837-ba8c-8efcaecd0cd2)
 
 ## Technologies Used
 
