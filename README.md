@@ -12,7 +12,7 @@ A **Random Quote Generator** built using **React.js** and **Axios**, which fetch
 
 ## Demo
 
-You can check the app [here](https://random-quotes-generator-mocha.vercel.app/) (add deployment link if available).
+You can check the Quotes app [here](https://random-quotes-generator-mocha.vercel.app/) 
 
 ## Screenshots
 
