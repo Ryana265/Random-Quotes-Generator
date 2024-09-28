@@ -1,6 +1,6 @@
 # Quotes App
 
-A **Random Quote Generator** built using **React.js** and **Axios**,which fetches and displays quotes from a public API. This app allows users to view a random quote and generate a new one with click of a button.
+A **Random Quote Generator** built using **React.js** and **Axios**,which fetches and displays quotes from a public API. This app allows users to view a random quote and generate a new one with the click of a button.
 
 ## Features
 
