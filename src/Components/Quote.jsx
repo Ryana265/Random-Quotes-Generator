@@ -12,9 +12,20 @@ function Quote() {
     setQuoteAu(response.data.quotes[randomIndex].author);
   };
 
+  const speakQuote = (quote, author) => {
+    const utterance = new SpeechSynthesisUtterance(`"${quote}" by ${author}`);
+    window.speechSynthesis.speak(utterance);
+  };
+
   useEffect(() => {
     fetchQuote();
   }, []);
+
+  useEffect(() => {
+    if (quote && quoteau) {
+      speakQuote(quote, quoteau);
+    }
+  }, [quote, quoteau]);
 
   return (
     <div className="container">
@@ -23,7 +34,11 @@ function Quote() {
         <p className="quote">"{quote}"</p>
         <p className="author">- {quoteau}</p>
       </div>
-      <button className="button" onClick={fetchQuote}>Generate New Quote</button>
+      <button className="button" onClick={fetchQuote}>
+  Generate New Quote
+  <i className="fa-solid fa-volume-high me-5" style={{ marginLeft: '10px' }}></i>
+</button>
+
     </div>
   );
 }
