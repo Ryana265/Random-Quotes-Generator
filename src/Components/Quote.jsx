@@ -36,7 +36,7 @@ function Quote() {
       </div>
       <button className="button" onClick={fetchQuote}>
   Generate New Quote
-  <i className="fa-solid fa-volume-high me-5" style={{ marginLeft: '10px' }}></i>
+  <i className="fa-solid fa-volume-high me-5 " style={{ marginLeft: '10px' }}></i>
 </button>
 
     </div>
